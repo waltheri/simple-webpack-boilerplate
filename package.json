@@ -1,0 +1,34 @@
+{
+  "name": "simple-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Basic and lightweight webpack boilerplate with ES6 support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waltheri/simple-webpack-boilerplate.git"
+  },
+  "keywords": [
+    "webpack",
+    "babel",
+    "boilerplate",
+    "less",
+    "es6"
+  ],
+  "author": "Jan Prokop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waltheri/simple-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/waltheri/simple-webpack-boilerplate#readme",
+  "devDependencies": {},
+  "preferGlobal": true,
+  "bin": {
+    "simple-webpack-boilerplate": "bin/index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^0.30.0"
+  }
+}
