@@ -3,7 +3,7 @@
 module.exports = {
 	entry: "./src/main.js",
 	output: {
-		path: "dist/",
+		path: require("path").resolve("./dist"),
 		filename: "[name].bundle.js",
 		chunkFilename: "[hash].js",
 		publicPath: "dist/"
@@ -19,6 +19,5 @@ module.exports = {
 		}],
 		noParse: /node_modules\/quill\/dist/
 	},
-	debug: true,
 	devtool: "#source-map"
 }
