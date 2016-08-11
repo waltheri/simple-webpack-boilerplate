@@ -1,5 +1,7 @@
 # Simple Webpack Boilerplate
 
+:point_up: This module is currently in the early stage of development and it will get better.
+
 A command line utility, which prepares basic webpack project, ready to be used immediately, no configuration needed. It doesn't tell you, which framework or library you should be using, it contains only a handful of modules:
 
 * Webpack
