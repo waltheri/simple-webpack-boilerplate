@@ -39,3 +39,7 @@ This boilerplate contains a few starter scripts, which will help you to build yo
 ### npm run build
 
 Runs the Webpack and builds the app, results will be in folder `dist`.
+
+### npm run dev-server
+
+Runs the Webpack dev server.
