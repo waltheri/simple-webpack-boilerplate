@@ -44,3 +44,15 @@ Runs the Webpack and builds the app, results will be in folder `dist`.
 ### npm run dev-server
 
 Runs the Webpack dev server.
+
+## Customize your boilerplate
+
+If you don't like some configuration of this boilerplate, or you would like to add some modules to it, there isn't an easier way to do it other than to create your own boilerplate from this one. Just fork this repository and clone it to your computer.
+
+In file *config.js* you can add modules (as devDependencies in package.json) and scripts (as scripts in package.json). Then you can modify default files of a project in folder *assets/default*. After you finish the changes call:
+
+```
+npm install -g
+```
+
+And command `simple-webpack-boilerplate` will get updated and it will be creating your boilerplate.
