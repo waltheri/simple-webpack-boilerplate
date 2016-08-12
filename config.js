@@ -5,7 +5,12 @@ var dependencies = {
     "gulp": "3.x",
     "webpack": "1.x",
 	"webpack-dev-server": "1.x",
-	"openurl": "^1.1.1"
+	"openurl": "1.x",
+	"extract-text-webpack-plugin": "1.x",
+    "style-loader": "0.x",
+    "css-loader": "0.x",
+    "less": "latest",
+    "less-loader": "2.x",
 }
 
 var scripts = {

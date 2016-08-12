@@ -1,9 +1,11 @@
 // Webpack configuration file
+var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var resolve = require("path").resolve;
 
 module.exports = {
 	entry: "./src/main.js",
 	output: {
-		path: require("path").resolve("./dist"),
+		path: resolve("./dist"),
 		filename: "[name].bundle.js",
 		chunkFilename: "[hash].js",
 		publicPath: "dist/"
@@ -16,8 +18,16 @@ module.exports = {
 			query: {
 				presets: ["es2015"]
 			}
-		}],
-		noParse: /node_modules\/quill\/dist/
+		}, {
+			test: /\.css$/,
+			loader: ExtractTextPlugin.extract("style-loader", "css-loader?sourceMap")
+		}, {
+			test: /\.less$/,
+			loader: ExtractTextPlugin.extract("style-loader", "css-loader?sourceMap!less-loader?sourceMap")
+		}]
 	},
+	plugins: [
+        new ExtractTextPlugin("[name].css")
+    ],
 	devtool: "#source-map"
 }
