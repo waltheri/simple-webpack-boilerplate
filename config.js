@@ -3,6 +3,7 @@ var dependencies = {
     "babel-loader": "6.x",
     "babel-preset-es2015": "6.x",
     "gulp": "3.x",
+	"gulp-util": "3.x",
     "webpack": "1.x",
 	"webpack-dev-server": "1.x",
 	"openurl": "1.x",
