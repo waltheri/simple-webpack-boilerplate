@@ -7,6 +7,7 @@ A command line utility, which prepares basic webpack project, ready to be used i
 * Webpack
 * Babel (for ES6 support)
 * Gulp (for build tasks)
+* LESS
 
 Everything else is up to you.
 
